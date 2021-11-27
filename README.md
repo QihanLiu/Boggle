@@ -5,6 +5,7 @@ A valid word must be composed by following a sequence of adjacent dice—two dic
 A valid word can use each die at most once.\
 A valid word must contain at least 3 letters.\
 A valid word must be in the dictionary (which typically does not contain proper nouns).\
+\
 It is implemented with DFS and trie.\
 It features 1. 26 node Trie to save time (more memory); 2. DFS with cached nodes; 3. Skip Qx; 4. No set for words. Use UID to record when (if any) the word is output. 5. Record words in Trie, to avoid use StringBuilder.\
 Week 4 assignment of Algorithms, Part II, by Robert Sedgewick in Princeton University.\
